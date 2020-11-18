@@ -1,0 +1,17 @@
+npm init - command to run on starting a project
+npm config ls -l - lists all saved npm values
+npm config set init-author-name "Manish Sharma" -g 
+               "      key     "  "    value   "
+this command sets the value on defaults
+
+to see a specific value - npm config get init-author-name
+
+npm list - lists all dependencies and their dependencies of packages installed in the current project
+npm list -g - lists all dependencies and their dependencies of packages installed globally
+
+npm list -g --depth=0 - lists all dependencies installed globally
+
+npm install packagename@version - to install a specific version of package
+npm install packagename@latest - to install latest version of package
+
+
